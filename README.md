@@ -2,7 +2,7 @@
 
 An end-to-end project analyzing and predicting Big Mart item-outlet sales: data cleaning, exploratory visualization, feature engineering, and a comparison of 4 regression models.
 
-## 📌 Project Overview
+## Project Overview
 This project builds a complete pipeline around the Big Mart Sales dataset. It covers:
 
 - Data cleaning (missing values, inconsistent category labels)
@@ -11,7 +11,7 @@ This project builds a complete pipeline around the Big Mart Sales dataset. It co
 - Training and comparing 4 regression models to predict `item_outlet_sales`
 - Saving trained models and generated figures to disk
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 bigmart-sales-visualization/
 ├── data/
@@ -35,13 +35,13 @@ bigmart-sales-visualization/
 └── README.md
 ```
 
-## 📊 Dataset
+## Dataset
 The Big Mart Sales dataset (Analytics Vidhya / Kaggle) contains 8,523 rows covering 1,559 products across 10 outlets, collected in 2013. See `data/README.md` for the download link and column descriptions.
 
-## 🎯 Prediction Target
+## Prediction Target
 `item_outlet_sales` — the sales figure for a given item at a given outlet. This is a **regression** problem (predicting a continuous value), not classification.
 
-## 🤖 Models Compared
+## Models Compared
 | Model               | Description                          |
 |---------------------|---------------------------------------|
 | Linear Regression   | Simple linear baseline                |
@@ -54,7 +54,7 @@ Models are evaluated using:
 - **MAE** (Mean Absolute Error) — average absolute error, less sensitive to outliers
 - **R²** (coefficient of determination) — proportion of variance explained
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -81,13 +81,13 @@ This will:
 - Train and evaluate 4 regression models
 - Save each trained model into `models/`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Pandas, NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
